@@ -35,7 +35,7 @@ illustrations sections from the same dictionary.
 
 1) After text preprocessing I firstly take the baseline solution of this contest from here https://github.com/akutuzov/russian_wsi 
 
-   The solution is as follows
+   The solution is as follows:
 
    In each cluster of words (here I mean, for instance, all meanings of word 'замок') we take the vector embeddings of each word of the context with the      function fingerprint() and take the mean of the sum of the vectors.
 
