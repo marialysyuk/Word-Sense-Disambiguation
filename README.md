@@ -35,11 +35,11 @@ illustrations sections from the same dictionary.
 
 1) After text preprocessing I firstly take the baseline solution of this contest from here https://github.com/akutuzov/russian_wsi 
 
-The solution is as follows
+   The solution is as follows
 
-In each cluster of words (here I mean, for instance, all meanings of word 'замок') we take the vector embeddings of each word of the context with the function fingerprint() and take the mean of the sum of the vectors.
+   In each cluster of words (here I mean, for instance, all meanings of word 'замок') we take the vector embeddings of each word of the context with the      function fingerprint() and take the mean of the sum of the vectors.
 
-The resulting vectors are then ran through two step-clustering by the function predict_clusters(): first, with Affinity Propagation to evaluate the amount of clusters and after that the eastimated amount of clusters is used in Spectral Clustering.
+   The resulting vectors are then ran through two step-clustering by the function predict_clusters(): first, with Affinity Propagation to evaluate the        amount of clusters and after that the eastimated amount of clusters is used in Spectral Clustering.
 
 2) The upgrade of the baseline solution is
 
