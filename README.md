@@ -42,7 +42,6 @@ illustrations sections from the same dictionary.
    The resulting vectors are then ran through two step-clustering by the function predict_clusters(): first, with Affinity Propagation to evaluate the        amount of clusters and after that the eastimated amount of clusters is used in Spectral Clustering.
 
 2) The upgrade of the baseline solution is
-
-trying different corpora, including those without position tagging
-trying different clustering hyperparametes + changing at the second step Spectral Clustering to KMeans Clustering
+   - trying different corpora, including those without position tagging
+   - trying different clustering hyperparametes + changing at the second step Spectral Clustering to KMeans Clustering
 
